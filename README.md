@@ -1,24 +1,18 @@
-# Purser: a tool to check access permissions and preconditions on clouds. 
+# Purser: a tool to check access permissions and preconditions on clouds
 
-Purser takes the credentials for a cloud providers API and checks several
-aspects against a list of expectations. In its initial form, it is written to
-test the requirements the OpenShift 4 installer has for a Google Compute
-Platform project.
+This repository is part of Project Syn.
+For documentation on Project Syn and this component, see https://syn.tools.
 
-See [CHANGELOG.md](/CHANGELOG.md) for changelogs of each release version of
-Purser.
+## Documentation
 
-## Usage
+Documentation for this component is written using [Asciidoc][asciidoc] and [Antora][antora].
+It is located in the [docs/](docs) folder.
+The [Divio documentation structure](https://documentation.divio.com/) is used to organize its content.
 
-Purser needs to now where to finde the service account keys. To this by
-exporting the variable `GOOGLE_APPLICATION_CREDENTIALS` pointing to the JSON
-file holding this data. 
+## Contributing and license
 
-    purser gcp <project id> --domain <domain>
+This library is licensed under [BSD-3-Clause](LICENSE).
+For information about how to contribute see [CONTRIBUTING](CONTRIBUTING.md).
 
-The `<project>` id can be passed in its numerical or human readable form. You
-can find the project ID in the JSON file holding the service account key.
-
-The domain is optional. If set, validation will fail if the given domain is not
-a public managed zone within the validated project. The domain has to be given
-as FQDN including the dot at the end.
+[asciidoc]: https://asciidoctor.org/
+[antora]: https://antora.org/
