@@ -2,7 +2,7 @@
 
 
 {doctitle} takes the credentials for a cloud providers API and checks several aspects against a list of expectations.
-In its initial form, it is written to test the requirements the OpenShift 4 installer has for a Google Compute Platform project.
+In its initial form, it's written to test the requirements the OpenShift 4 installer has for a Google Compute Platform project.
 
 == Usage
 
@@ -18,5 +18,5 @@ The `<project id>` can be passed in its numerical or human readable form.
 You can find the project ID in the JSON file holding the service account key.
 
 The domain is optional.
-If set, validation will fail if the given domain is not a public managed zone within the validated project.
+If set, validation will fail if the given domain isn't a public managed zone within the validated project.
 The domain has to be given as FQDN including the dot at the end.
