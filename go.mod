@@ -9,8 +9,7 @@ require (
 	github.com/go-logr/glogr v0.1.0 // indirect
 	github.com/go-logr/logr v0.1.0
 	github.com/sirupsen/logrus v1.6.0
-	google.golang.org/api v0.26.0
-	google.golang.org/genproto v0.0.0-20200331122359-1ee6d9798940 // indirect
+	google.golang.org/api v0.31.0
 	gopkg.in/alecthomas/kingpin.v2 v2.2.6
 	k8s.io/klog v1.0.0 // indirect
 )
