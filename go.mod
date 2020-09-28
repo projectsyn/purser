@@ -8,7 +8,7 @@ require (
 	github.com/bombsimon/logrusr v0.0.0-20200131103305-03a291ce59b4
 	github.com/go-logr/glogr v0.1.0 // indirect
 	github.com/go-logr/logr v0.2.1
-	github.com/sirupsen/logrus v1.6.0
+	github.com/sirupsen/logrus v1.7.0
 	google.golang.org/api v0.31.0
 	gopkg.in/alecthomas/kingpin.v2 v2.2.6
 	k8s.io/klog v1.0.0 // indirect
