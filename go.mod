@@ -8,6 +8,6 @@ require (
 	github.com/bombsimon/logrusr v0.0.0-20200131103305-03a291ce59b4
 	github.com/go-logr/logr v0.2.1
 	github.com/sirupsen/logrus v1.8.1
-	google.golang.org/api v0.31.0
+	google.golang.org/api v0.58.0
 	gopkg.in/alecthomas/kingpin.v2 v2.2.6
 )
